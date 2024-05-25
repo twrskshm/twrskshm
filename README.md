@@ -1,16 +1,20 @@
-## Hi there 👋
+## Hi there 👋 I'm Saksham Tiwari.
 
-<!--
-**twrskshm/twrskshm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## About Me
+I'm a software engineer specializing in distributed data systems. My learning approach involves deep diving into complex 
+open-source projects by thoroughly reading documentation, analyzing code for low-level details, and replicating entire 
+projects.
 
-Here are some ideas to get you started:
+The emergence of Large Language Models (LLMs) sparked my interest in Machine Learning. I have recently ventured into 
+data scraping, cleaning, representation, model creation, and performance analysis, although I am still a beginner in 
+this field.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Driven by my competitive nature, I enjoy participating in programming contests, playing First Person Shooting (FPS) 
+games, and engaging in chess matches.
+
+## LeetCode
+- **Total Problems Solved**: 270
+    - Easy: 84
+    - Medium: 154
+    - Hard: 32
+    

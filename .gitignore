@@ -1,2 +1,5 @@
+# Ignore IDE related repositories.
 .idea
+
+# Ignore development related repositories.
 .venv

@@ -1,10 +1,13 @@
 name: Update README
 
 on:
-  schedule:
-    - cron: '0 0 * * 0'  # Runs every Sunday at midnight
+  # The Update README workflow will run on every push to the main branch and at midnight (UTC) daily.
+  push:
+    branches:
+      - main
 
-  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   update-readme:
@@ -13,6 +16,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+
+      - name: Clone additional repositories
+        run: |
+          git clone https://github.com/twrskshm/codeforces.git
+          git clone https://github.com/twrskshm/leetcode.git
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -29,6 +37,8 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
           git add README.md
           git commit -m 'Updating README.md with latest details.'
+          
           git push

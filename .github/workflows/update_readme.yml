@@ -34,8 +34,6 @@ jobs:
         run: python update_readme.py
 
       - name: Commit and push changes
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
@@ -43,7 +41,4 @@ jobs:
           git add README.md
           git commit -m 'Updating README.md with latest details.'
           
-          # Configure the remote URL to include the token.
-          git remote set-url origin https://twrskshm:${{ secrets.GH_TOKEN }}@github.com/twrskshm/twrskshm.git
-          
-          git push origin main
+          git push

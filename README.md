@@ -11,3 +11,10 @@ this field.
 Driven by my competitive nature, I enjoy participating in programming contests, playing First Person Shooting (FPS) 
 games, and engaging in chess matches.
 
+## Problems Solved
+### [Codeforces](https://github.com/twrskshm/codeforces.git)
+- .git: 0
+
+### [Leetcode](https://github.com/twrskshm/leetcode.git)
+- .git: 0
+

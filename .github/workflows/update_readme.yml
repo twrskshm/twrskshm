@@ -43,4 +43,7 @@ jobs:
           git add README.md
           git commit -m 'Updating README.md with latest details.'
           
-          git push https://twrskshm:${{ secrets.GH_TOKEN }}@github.com/twrskshm/twrskshm.git
+          # Configure the remote URL to include the token.
+          git remote set-url origin https://twrskshm:${{ secrets.GH_TOKEN }}@github.com/twrskshm/twrskshm.git
+          
+          git push origin main

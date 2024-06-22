@@ -13,8 +13,6 @@ games, and engaging in chess matches.
 
 ## Problems Solved
 ### [Codeforces](https://github.com/twrskshm/codeforces.git)
-- .git: 0
 
 ### [Leetcode](https://github.com/twrskshm/leetcode.git)
-- .git: 0
 

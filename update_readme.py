@@ -79,7 +79,12 @@ def format_directory_name(directory_name):
 def get_subfolder_list(directory_path):
     subdirectory_list = Path(directory_path).iterdir()
 
-    return [subdirectory.name for subdirectory in subdirectory_list if subdirectory.is_dir()]
+    return [
+        subdirectory.name
+        for subdirectory in subdirectory_list
+        if subdirectory.is_dir()
+        and not subdirectory.name.startswith('.')
+    ]
 
 
 def count_java_files(directory_path):

@@ -13,7 +13,6 @@ games, and engaging in chess matches.
 
 ## Problems Solved
 ### [Codeforces](https://github.com/twrskshm/codeforces.git)
-- Numbertheory: 1
 
 ### [Leetcode](https://github.com/twrskshm/leetcode.git)
 
